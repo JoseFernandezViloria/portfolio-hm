@@ -17,7 +17,16 @@ const Header = () => {
         <div className="hidden md:flex items-center gap-4">
           <div className="flex item-center gap-6">
             <button>Sobre mí</button>
+
+            <a
+              href="#projects"
+              className="hover:text-blue-300 transition-colors"
+            >
+              Proyectos
+            </a>
           </div>
+
+          <button className="relative flex items-center gap-2 px-3 py-1 bg-blue-500/20 backdrop-blur-xl border border-blue-400/30 text-white text-sm font-medium hover:bg-white/20 transition/all duration"></button>
         </div>
       </nav>
     </header>
